@@ -19,6 +19,7 @@
 		98F35E642AB00F9C00CA76F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98F35E662AB00F9D00CA76F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98F35E692AB00F9D00CA76F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98F35EA42AB0193D00CA76F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +52,13 @@
 		98F35E612AB00F9C00CA76F6 /* yakal */ = {
 			isa = PBXGroup;
 			children = (
+				98F35EA42AB0193D00CA76F6 /* Info.plist */,
+				98F35EA32AB0177000CA76F6 /* SupportingFiles */,
+				98F35EA22AB016FC00CA76F6 /* Resources */,
+				98F35EA12AB016F700CA76F6 /* Config */,
+				98F35E7F2AB011A600CA76F6 /* Code */,
 				98F35E622AB00F9C00CA76F6 /* yakalApp.swift */,
 				98F35E642AB00F9C00CA76F6 /* ContentView.swift */,
-				98F35E662AB00F9D00CA76F6 /* Assets.xcassets */,
 				98F35E682AB00F9D00CA76F6 /* Preview Content */,
 			);
 			path = yakal;
@@ -65,6 +70,291 @@
 				98F35E692AB00F9D00CA76F6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98F35E7F2AB011A600CA76F6 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				98F35E812AB011BA00CA76F6 /* Utilities */,
+				98F35E802AB011B500CA76F6 /* Features */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		98F35E802AB011B500CA76F6 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				98F35E872AB0123B00CA76F6 /* Common */,
+				98F35E852AB011D000CA76F6 /* Settings */,
+				98F35E842AB011CB00CA76F6 /* Calendar */,
+				98F35E832AB011C800CA76F6 /* Home */,
+				98F35E822AB011C000CA76F6 /* Login */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		98F35E812AB011BA00CA76F6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		98F35E822AB011C000CA76F6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				98F35EA02AB012E500CA76F6 /* Models */,
+				98F35E9F2AB012DF00CA76F6 /* Views */,
+				98F35E9E2AB012DD00CA76F6 /* ViewModels */,
+				98F35E9D2AB012DA00CA76F6 /* Actions */,
+				98F35E9C2AB012D600CA76F6 /* Screens */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		98F35E832AB011C800CA76F6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				98F35E9B2AB012D000CA76F6 /* Screens */,
+				98F35E9A2AB012C900CA76F6 /* Actions */,
+				98F35E992AB012C600CA76F6 /* ViewModels */,
+				98F35E972AB012BF00CA76F6 /* Views */,
+				98F35E862AB011DA00CA76F6 /* Models */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		98F35E842AB011CB00CA76F6 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				98F35E962AB012B900CA76F6 /* Views */,
+				98F35E952AB012B400CA76F6 /* Screens */,
+				98F35E942AB012B000CA76F6 /* Actions */,
+				98F35E932AB012AD00CA76F6 /* ViewModels */,
+				98F35E922AB012AA00CA76F6 /* Models */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		98F35E852AB011D000CA76F6 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				98F35E912AB0129E00CA76F6 /* Models */,
+				98F35E902AB0128700CA76F6 /* Actions */,
+				98F35E8F2AB0128100CA76F6 /* Screens */,
+				98F35E8E2AB0127C00CA76F6 /* ViewModels */,
+				98F35E8D2AB0127900CA76F6 /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		98F35E862AB011DA00CA76F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		98F35E872AB0123B00CA76F6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				98F35E8C2AB0126B00CA76F6 /* Views */,
+				98F35E8B2AB0126500CA76F6 /* ViewModels */,
+				98F35E8A2AB0124800CA76F6 /* Screens */,
+				98F35E892AB0124500CA76F6 /* Models */,
+				98F35E882AB0124000CA76F6 /* Actions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		98F35E882AB0124000CA76F6 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		98F35E892AB0124500CA76F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		98F35E8A2AB0124800CA76F6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		98F35E8B2AB0126500CA76F6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		98F35E8C2AB0126B00CA76F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		98F35E8D2AB0127900CA76F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		98F35E8E2AB0127C00CA76F6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		98F35E8F2AB0128100CA76F6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		98F35E902AB0128700CA76F6 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		98F35E912AB0129E00CA76F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		98F35E922AB012AA00CA76F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		98F35E932AB012AD00CA76F6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		98F35E942AB012B000CA76F6 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		98F35E952AB012B400CA76F6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		98F35E962AB012B900CA76F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		98F35E972AB012BF00CA76F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		98F35E992AB012C600CA76F6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		98F35E9A2AB012C900CA76F6 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		98F35E9B2AB012D000CA76F6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		98F35E9C2AB012D600CA76F6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		98F35E9D2AB012DA00CA76F6 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		98F35E9E2AB012DD00CA76F6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		98F35E9F2AB012DF00CA76F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		98F35EA02AB012E500CA76F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		98F35EA12AB016F700CA76F6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		98F35EA22AB016FC00CA76F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				98F35E662AB00F9D00CA76F6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		98F35EA32AB0177000CA76F6 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +560,7 @@
 				DEVELOPMENT_TEAM = 4HZC2Z3WWS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = yakal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +590,7 @@
 				DEVELOPMENT_TEAM = 4HZC2Z3WWS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = yakal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
