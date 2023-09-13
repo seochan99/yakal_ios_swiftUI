@@ -1,15 +1,21 @@
 import SwiftUI
+import Combine
 
 struct HomeView: View {
+    // 현재날짜
     @State private var currentDate = Date()
+    // 약물 데이터 불러오기
+    @StateObject private var medicationData = MedicationData()
 
-    
     let dateFormatter: DateFormatter = {
            let formatter = DateFormatter()
            formatter.dateFormat = "YYYY년 MM월 dd일"
            return formatter
        }()
     
+    
+
+
     var body: some View {
         NavigationView {
             VStack{
@@ -34,8 +40,8 @@ struct HomeView: View {
                             Text("오늘 복용해야하는 약은\n")
                                 .font(Font.custom("SUIT", size: 20).weight(.medium))
                                 .foregroundColor(Color(red: 0.08, green: 0.08, blue: 0.08)) +
-                            Text("총 0개")
-                                .font(Font.custom("SUIT", size: 20).weight(.medium))
+                            Text("총 \(medicationData.totalTakenCount)개")  // 전체 복용해야 하는 약의 수를 표시
+                                .font(Font.custom("SUIT", size: 20).weight(.bold))
                                 .foregroundColor(Color(UIColor(red: 0.15, green: 0.4, blue: 0.96, alpha: 1))) +
                             Text("입니다")
                                 .font(Font.custom("SUIT", size: 20).weight(.medium))
@@ -70,7 +76,7 @@ struct HomeView: View {
                         .padding(.leading,20)
                         Spacer()
                         VStack(spacing:24){
-                            CircularProgressBarWithText(progress: 0.3,size:88,strokeLineWidth:5,fontSize:20)
+                            CircularProgressBarWithText(progress: Double(Float(medicationData.totalTakenCount) / Float(medicationData.totalMedicineCount)),size:88,strokeLineWidth:5,fontSize:20)
                                                 Spacer()
                                                         .frame(height: 30)
                             
@@ -79,7 +85,8 @@ struct HomeView: View {
                     }.background(.white)
                 }
                 ScrollView{
-                    
+                    MedicationSwiftUIView()
+                                        .environmentObject(medicationData)
                 }.background(Color(red: 0.96, green: 0.96, blue: 0.98)) // Vstack
                 } // Vstack
             
