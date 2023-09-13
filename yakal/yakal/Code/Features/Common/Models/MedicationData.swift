@@ -131,23 +131,13 @@ class MedicationData: ObservableObject {
         ]),
     ]
     var totalMedicineCount: Int {
-         return medications.reduce(0) { $0 + $1.medication.count }
-     }
-
-     var totalTakenCount: Int {
-         return medications.reduce(0) { result, medication in
-             result + medication.medication.filter { $0.isTaken }.count
-         }
-     }
-
-    init() {
-            // 각 약에 대해 변경 사항을 감지하고 totalTakenCount를 갱신
-            for medication in medications {
-                for medicine in medication.medication {
-                    _ = medicine.$isTaken.sink { [weak self] _ in
-                        self?.objectWillChange.send()
-                    }
-                }
-            }
+        return medications.reduce(0) { $0 + $1.count }
+    }
+    var totalTakenCount: Int {
+        return medications.reduce(0) { result, medication in
+            result + medication.medication.filter { $0.isTaken }.count
         }
+    }
+
+    
 }

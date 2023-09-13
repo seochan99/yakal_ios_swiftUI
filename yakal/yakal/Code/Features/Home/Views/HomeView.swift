@@ -14,8 +14,6 @@ struct HomeView: View {
        }()
     
     
-
-
     var body: some View {
         NavigationView {
             VStack{
@@ -40,7 +38,7 @@ struct HomeView: View {
                             Text("오늘 복용해야하는 약은\n")
                                 .font(Font.custom("SUIT", size: 20).weight(.medium))
                                 .foregroundColor(Color(red: 0.08, green: 0.08, blue: 0.08)) +
-                            Text("총 \(medicationData.totalTakenCount)개")  // 전체 복용해야 하는 약의 수를 표시
+                            Text("총 \(medicationData.totalMedicineCount)개")  // 전체 복용해야 하는 약의 수를 표시
                                 .font(Font.custom("SUIT", size: 20).weight(.bold))
                                 .foregroundColor(Color(UIColor(red: 0.15, green: 0.4, blue: 0.96, alpha: 1))) +
                             Text("입니다")
@@ -75,6 +73,7 @@ struct HomeView: View {
                         }
                         .padding(.leading,20)
                         Spacer()
+
                         VStack(spacing:24){
                             CircularProgressBarWithText(progress: Double(Float(medicationData.totalTakenCount) / Float(medicationData.totalMedicineCount)),size:88,strokeLineWidth:5,fontSize:20)
                                                 Spacer()
@@ -84,7 +83,7 @@ struct HomeView: View {
                         .padding(.trailing,20)
                     }.background(.white)
                 }
-                ScrollView{
+                ScrollView(showsIndicators: false){
                     MedicationSwiftUIView()
                                         .environmentObject(medicationData)
                 }.background(Color(red: 0.96, green: 0.96, blue: 0.98)) // Vstack
