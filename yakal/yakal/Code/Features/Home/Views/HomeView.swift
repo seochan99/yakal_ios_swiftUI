@@ -4,7 +4,6 @@ struct HomeView: View {
     @State private var currentDate = Date()
 
     
-    
     let dateFormatter: DateFormatter = {
            let formatter = DateFormatter()
            formatter.dateFormat = "YYYY년 MM월 dd일"
@@ -37,7 +36,7 @@ struct HomeView: View {
                             Text("오늘 복용해야하는 약은\n")
                                 .font(Font.custom("SUIT", size: 20).weight(.medium))
                                 .foregroundColor(Color(red: 0.08, green: 0.08, blue: 0.08)) +
-                            Text("총0개")
+                            Text("총 0개")
                                 .font(Font.custom("SUIT", size: 20).weight(.medium))
                                 .foregroundColor(Color(UIColor(red: 0.15, green: 0.4, blue: 0.96, alpha: 1))) +
                             Text("입니다")
@@ -69,16 +68,13 @@ struct HomeView: View {
                                 )
                                 .padding(.top,36)
                                 .padding(.bottom,24)
-                            //                        Spacer()
-                            //                                .frame(height: 10) // Spacer의 높이를 조절하여 공간을 제한합니다.
-                            
                         }
                         .padding(.leading,20)
                         Spacer()
                         VStack(spacing:24){
                             CircularProgressBarWithText(progress: 0.3,size:88,strokeLineWidth:5,fontSize:20)
                                                 Spacer()
-                                                        .frame(height: 30) // Spacer의 높이를 조절하여 공간을 제한합니다.
+                                                        .frame(height: 30)
                             
                         }
                         .padding(.trailing,20)
