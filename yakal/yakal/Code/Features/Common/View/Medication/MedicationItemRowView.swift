@@ -6,97 +6,10 @@ struct DrugInfoResponse: Codable {
     let Message: String
 }
 
-
-class MedicineViewModel: ObservableObject {
-    @Published var identaImage: Image?
-    @Published var responseString = "Loading..."
-    @Binding var medicine: Medicine
-
-    private var imageCache: [String: Image] = [:]
-    
-    init(medicine: Binding<Medicine>) { // non-optional로 변경
-        _medicine = medicine
-    }
-
-    
-    func fetchDrugInfo(kdCode: String) {
-        self.medicine = medicine
-
-         print("kdcode는 이거임!! \(kdCode)")
-
-         // 이미 캐시된 이미지가 있는 경우 그것을 사용
-         if let cachedImage = imageCache[kdCode] {
-             self.identaImage = cachedImage
-             self.responseString = "Data fetched from cache"
-             return
-         }
-
-         guard let url = URL(string: "https://api2.kims.co.kr/api/drug/info?drugcode=\(kdCode)&drugType=N") else {
-             self.responseString = "Invalid URL"
-             return
-         }
-  
-
-        var request = URLRequest(url: url)
-        request.httpMethod = "GET"
-        
-        // 유저네임, 패스워드
-        let username = "DIVWPM"
-        let password = "DIVWPM"
-        let loginString = "\(username):\(password)"
-        if let utf8Data = loginString.data(using: .utf8) {
-            let base64LoginString = utf8Data.base64EncodedString()
-            request.addValue("Basic \(base64LoginString)", forHTTPHeaderField: "Authorization")
-        }
-        
-        
-
-        let task = URLSession.shared.dataTask(with: request) { data, response, error in
-            if let data = data {
-                do {
-                    let response = try JSONDecoder().decode(DrugInfoResponse.self, from: data)
-                    
-                     DispatchQueue.main.async {
-                         if  response.DrugInfo != nil {
-                             self.medicine.drugInfo = response.DrugInfo
-                         } else {
-                             print("medicine property is nil")
-                         }
-
-                         let base64String = response.DrugInfo.IdentaImage
-                         if let imageData = Data(base64Encoded: base64String), let uiImage = UIImage(data: imageData) {
-                             let image = Image(uiImage: uiImage)
-                             self.identaImage = image
-                             self.imageCache[kdCode] = image
-                             self.responseString = "Data fetched successfully"
-                         } else {
-                             self.responseString = "Image decoding failed"
-                         }
-                     }
-                } catch {
-                    print("Error decoding JSON: \(error)")
-                    DispatchQueue.main.async {
-                        self.responseString = "Error decoding JSON: \(error.localizedDescription)"
-                    }
-                }
-            } else if let error = error {
-                DispatchQueue.main.async {
-                    self.responseString = "Request failed: \(error.localizedDescription)"
-                }
-            }
-        }
-
-        task.resume()
-    }
-}
-
-
-
-
 //MARK: - 약 개별 Row
 struct MedicationItemRow: View {
     @Binding var medicine: Medicine
-    @ObservedObject var viewModel: MedicineViewModel
+    @ObservedObject var viewModel: MedicineViewModel    // viewModel 생성
     
     init(medicine: Binding<Medicine>, isAllCompleted: Bool, isCompleted: Binding<Bool>) {
         _medicine = medicine
