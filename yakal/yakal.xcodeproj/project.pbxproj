@@ -7,19 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		982A22B02AB02FD600E512B1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22AF2AB02FD600E512B1 /* LoginView.swift */; };
+		982A22B42AB07DF200E512B1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22B32AB07DF200E512B1 /* HomeView.swift */; };
+		982A22B72AB0850200E512B1 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22B62AB0850200E512B1 /* CalendarView.swift */; };
+		982A22C12AB0873C00E512B1 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22C02AB0873C00E512B1 /* NotificationView.swift */; };
+		982A22C72AB1432500E512B1 /* CircularProgressBarWithText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22C62AB1432500E512B1 /* CircularProgressBarWithText.swift */; };
 		98F35E632AB00F9C00CA76F6 /* yakalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F35E622AB00F9C00CA76F6 /* yakalApp.swift */; };
 		98F35E652AB00F9C00CA76F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F35E642AB00F9C00CA76F6 /* ContentView.swift */; };
 		98F35E672AB00F9D00CA76F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F35E662AB00F9D00CA76F6 /* Assets.xcassets */; };
 		98F35E6A2AB00F9D00CA76F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F35E692AB00F9D00CA76F6 /* Preview Assets.xcassets */; };
+		B060978B413DCC1B8EF9F142 /* Pods_yakal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F29ED70031A63983D008A298 /* Pods_yakal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B7862A595D1A12A68C65E63 /* Pods-yakal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yakal.release.xcconfig"; path = "Target Support Files/Pods-yakal/Pods-yakal.release.xcconfig"; sourceTree = "<group>"; };
+		982A22AF2AB02FD600E512B1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		982A22B12AB030C400E512B1 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		982A22B32AB07DF200E512B1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		982A22B62AB0850200E512B1 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		982A22C02AB0873C00E512B1 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		982A22C62AB1432500E512B1 /* CircularProgressBarWithText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarWithText.swift; sourceTree = "<group>"; };
 		98F35E5F2AB00F9C00CA76F6 /* yakal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yakal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F35E622AB00F9C00CA76F6 /* yakalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yakalApp.swift; sourceTree = "<group>"; };
 		98F35E642AB00F9C00CA76F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98F35E662AB00F9D00CA76F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98F35E692AB00F9D00CA76F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		98F35EA42AB0193D00CA76F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EB0E3F4F708E54D593EACC16 /* Pods-yakal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yakal.debug.xcconfig"; path = "Target Support Files/Pods-yakal/Pods-yakal.debug.xcconfig"; sourceTree = "<group>"; };
+		F29ED70031A63983D008A298 /* Pods_yakal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yakal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +42,93 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B060978B413DCC1B8EF9F142 /* Pods_yakal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		721A76E7D4F4063C92F91A8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB0E3F4F708E54D593EACC16 /* Pods-yakal.debug.xcconfig */,
+				1B7862A595D1A12A68C65E63 /* Pods-yakal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		982A22B52AB084A800E512B1 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				982A22BD2AB0856A00E512B1 /* ViewModels */,
+				982A22BC2AB0856300E512B1 /* Views */,
+				982A22BB2AB0855E00E512B1 /* Models */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		982A22BB2AB0855E00E512B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		982A22BC2AB0856300E512B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				982A22B62AB0850200E512B1 /* CalendarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		982A22BD2AB0856A00E512B1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		982A22BE2AB0871F00E512B1 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				982A22BF2AB0872800E512B1 /* Views */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		982A22BF2AB0872800E512B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				982A22C02AB0873C00E512B1 /* NotificationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		982A22C22AB142E000E512B1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				982A22C32AB142ED00E512B1 /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		982A22C32AB142ED00E512B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				982A22C62AB1432500E512B1 /* CircularProgressBarWithText.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		98F35E562AB00F9C00CA76F6 = {
 			isa = PBXGroup;
 			children = (
 				98F35E612AB00F9C00CA76F6 /* yakal */,
 				98F35E602AB00F9C00CA76F6 /* Products */,
+				721A76E7D4F4063C92F91A8B /* Pods */,
+				C95B8F0EAEA013D41463EB89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +151,7 @@
 				98F35E622AB00F9C00CA76F6 /* yakalApp.swift */,
 				98F35E642AB00F9C00CA76F6 /* ContentView.swift */,
 				98F35E682AB00F9D00CA76F6 /* Preview Content */,
+				982A22B12AB030C400E512B1 /* Config.xcconfig */,
 			);
 			path = yakal;
 			sourceTree = "<group>";
@@ -84,7 +176,9 @@
 		98F35E802AB011B500CA76F6 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				98F35E872AB0123B00CA76F6 /* Common */,
+				982A22BE2AB0871F00E512B1 /* Notification */,
+				982A22C22AB142E000E512B1 /* Common */,
+				982A22B52AB084A800E512B1 /* Calendar */,
 				98F35E852AB011D000CA76F6 /* Settings */,
 				98F35E842AB011CB00CA76F6 /* Calendar */,
 				98F35E832AB011C800CA76F6 /* Home */,
@@ -153,53 +247,6 @@
 			children = (
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		98F35E872AB0123B00CA76F6 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				98F35E8C2AB0126B00CA76F6 /* Views */,
-				98F35E8B2AB0126500CA76F6 /* ViewModels */,
-				98F35E8A2AB0124800CA76F6 /* Screens */,
-				98F35E892AB0124500CA76F6 /* Models */,
-				98F35E882AB0124000CA76F6 /* Actions */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		98F35E882AB0124000CA76F6 /* Actions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Actions;
-			sourceTree = "<group>";
-		};
-		98F35E892AB0124500CA76F6 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		98F35E8A2AB0124800CA76F6 /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Screens;
-			sourceTree = "<group>";
-		};
-		98F35E8B2AB0126500CA76F6 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		98F35E8C2AB0126B00CA76F6 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		98F35E8D2AB0127900CA76F6 /* Views */ = {
@@ -275,6 +322,7 @@
 		98F35E972AB012BF00CA76F6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				982A22B32AB07DF200E512B1 /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -324,6 +372,7 @@
 		98F35E9F2AB012DF00CA76F6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				982A22AF2AB02FD600E512B1 /* LoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -357,6 +406,14 @@
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
+		C95B8F0EAEA013D41463EB89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F29ED70031A63983D008A298 /* Pods_yakal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -364,9 +421,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98F35E6D2AB00F9D00CA76F6 /* Build configuration list for PBXNativeTarget "yakal" */;
 			buildPhases = (
+				013ADEF17BC63171F6C594F3 /* [CP] Check Pods Manifest.lock */,
 				98F35E5B2AB00F9C00CA76F6 /* Sources */,
 				98F35E5C2AB00F9C00CA76F6 /* Frameworks */,
 				98F35E5D2AB00F9C00CA76F6 /* Resources */,
+				9DE7EB9E5DE50B84D1A17012 /* [CP] Embed Pods Frameworks */,
+				219225107C7A57A10BD2FCF9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -422,13 +482,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		013ADEF17BC63171F6C594F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yakal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		219225107C7A57A10BD2FCF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yakal/Pods-yakal-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yakal/Pods-yakal-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yakal/Pods-yakal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE7EB9E5DE50B84D1A17012 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yakal/Pods-yakal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yakal/Pods-yakal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yakal/Pods-yakal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		98F35E5B2AB00F9C00CA76F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982A22B72AB0850200E512B1 /* CalendarView.swift in Sources */,
+				982A22C72AB1432500E512B1 /* CircularProgressBarWithText.swift in Sources */,
+				982A22B02AB02FD600E512B1 /* LoginView.swift in Sources */,
 				98F35E652AB00F9C00CA76F6 /* ContentView.swift in Sources */,
+				982A22B42AB07DF200E512B1 /* HomeView.swift in Sources */,
 				98F35E632AB00F9C00CA76F6 /* yakalApp.swift in Sources */,
+				982A22C12AB0873C00E512B1 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +561,7 @@
 /* Begin XCBuildConfiguration section */
 		98F35E6B2AB00F9D00CA76F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7862A595D1A12A68C65E63 /* Pods-yakal.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -497,6 +622,7 @@
 		};
 		98F35E6C2AB00F9D00CA76F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 982A22B12AB030C400E512B1 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -551,9 +677,11 @@
 		};
 		98F35E6E2AB00F9D00CA76F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7862A595D1A12A68C65E63 /* Pods-yakal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"yakal/Preview Content\"";
@@ -561,6 +689,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = yakal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "약 알";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -571,7 +700,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = moc.viewpharm.iu.yakal;
+				PRODUCT_BUNDLE_IDENTIFIER = "-HZC2Z3WWS.viewpharm.yakal2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -581,9 +710,11 @@
 		};
 		98F35E6F2AB00F9D00CA76F6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 982A22B12AB030C400E512B1 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"yakal/Preview Content\"";
@@ -591,6 +722,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = yakal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "약 알";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -601,7 +733,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = moc.viewpharm.iu.yakal;
+				PRODUCT_BUNDLE_IDENTIFIER = "-HZC2Z3WWS.viewpharm.yakal2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
