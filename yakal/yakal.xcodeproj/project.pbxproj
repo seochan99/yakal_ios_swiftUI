@@ -11,13 +11,17 @@
 		982A22B42AB07DF200E512B1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22B32AB07DF200E512B1 /* HomeView.swift */; };
 		982A22B72AB0850200E512B1 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22B62AB0850200E512B1 /* CalendarView.swift */; };
 		982A22C12AB0873C00E512B1 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22C02AB0873C00E512B1 /* NotificationView.swift */; };
-		982A22C72AB1432500E512B1 /* CircularProgressBarWithText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22C62AB1432500E512B1 /* CircularProgressBarWithText.swift */; };
+		982A22C72AB1432500E512B1 /* CircularProgressBarWithTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22C62AB1432500E512B1 /* CircularProgressBarWithTextView.swift */; };
 		982A22CB2AB14B1D00E512B1 /* MedicineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22CA2AB14B1D00E512B1 /* MedicineModel.swift */; };
 		982A22CD2AB14B5700E512B1 /* TodoItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22CC2AB14B5700E512B1 /* TodoItemModel.swift */; };
 		982A22D22AB14B9700E512B1 /* MedicationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22D12AB14B9700E512B1 /* MedicationModel.swift */; };
 		982A22D42AB14C8900E512B1 /* TopSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22D32AB14C8900E512B1 /* TopSection.swift */; };
 		982A22D62AB14CAC00E512B1 /* NotificationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22D52AB14CAC00E512B1 /* NotificationButton.swift */; };
 		982A22D82AB14CDE00E512B1 /* InformationSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22D72AB14CDE00E512B1 /* InformationSection.swift */; };
+		982A22DA2AB14EC000E512B1 /* MedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22D92AB14EC000E512B1 /* MedicationView.swift */; };
+		982A22DD2AB14F0400E512B1 /* MedicationItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22DC2AB14F0400E512B1 /* MedicationItemRowView.swift */; };
+		982A22DF2AB14F2400E512B1 /* MedicationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22DE2AB14F2400E512B1 /* MedicationRowView.swift */; };
+		982A22E32AB1503300E512B1 /* MedicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22E22AB1503300E512B1 /* MedicationData.swift */; };
 		98F35E632AB00F9C00CA76F6 /* yakalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F35E622AB00F9C00CA76F6 /* yakalApp.swift */; };
 		98F35E652AB00F9C00CA76F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F35E642AB00F9C00CA76F6 /* ContentView.swift */; };
 		98F35E672AB00F9D00CA76F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F35E662AB00F9D00CA76F6 /* Assets.xcassets */; };
@@ -32,13 +36,17 @@
 		982A22B32AB07DF200E512B1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		982A22B62AB0850200E512B1 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		982A22C02AB0873C00E512B1 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
-		982A22C62AB1432500E512B1 /* CircularProgressBarWithText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarWithText.swift; sourceTree = "<group>"; };
+		982A22C62AB1432500E512B1 /* CircularProgressBarWithTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarWithTextView.swift; sourceTree = "<group>"; };
 		982A22CA2AB14B1D00E512B1 /* MedicineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineModel.swift; sourceTree = "<group>"; };
 		982A22CC2AB14B5700E512B1 /* TodoItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemModel.swift; sourceTree = "<group>"; };
 		982A22D12AB14B9700E512B1 /* MedicationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationModel.swift; sourceTree = "<group>"; };
 		982A22D32AB14C8900E512B1 /* TopSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSection.swift; sourceTree = "<group>"; };
 		982A22D52AB14CAC00E512B1 /* NotificationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationButton.swift; sourceTree = "<group>"; };
 		982A22D72AB14CDE00E512B1 /* InformationSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationSection.swift; sourceTree = "<group>"; };
+		982A22D92AB14EC000E512B1 /* MedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationView.swift; sourceTree = "<group>"; };
+		982A22DC2AB14F0400E512B1 /* MedicationItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationItemRowView.swift; sourceTree = "<group>"; };
+		982A22DE2AB14F2400E512B1 /* MedicationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationRowView.swift; sourceTree = "<group>"; };
+		982A22E22AB1503300E512B1 /* MedicationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationData.swift; sourceTree = "<group>"; };
 		98F35E5F2AB00F9C00CA76F6 /* yakal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yakal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F35E622AB00F9C00CA76F6 /* yakalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yakalApp.swift; sourceTree = "<group>"; };
 		98F35E642AB00F9C00CA76F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -131,7 +139,8 @@
 		982A22C32AB142ED00E512B1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				982A22C62AB1432500E512B1 /* CircularProgressBarWithText.swift */,
+				982A22DB2AB14EE600E512B1 /* Medication */,
+				982A22C62AB1432500E512B1 /* CircularProgressBarWithTextView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -149,8 +158,19 @@
 				982A22CA2AB14B1D00E512B1 /* MedicineModel.swift */,
 				982A22CC2AB14B5700E512B1 /* TodoItemModel.swift */,
 				982A22D12AB14B9700E512B1 /* MedicationModel.swift */,
+				982A22E22AB1503300E512B1 /* MedicationData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		982A22DB2AB14EE600E512B1 /* Medication */ = {
+			isa = PBXGroup;
+			children = (
+				982A22D92AB14EC000E512B1 /* MedicationView.swift */,
+				982A22DC2AB14F0400E512B1 /* MedicationItemRowView.swift */,
+				982A22DE2AB14F2400E512B1 /* MedicationRowView.swift */,
+			);
+			path = Medication;
 			sourceTree = "<group>";
 		};
 		98F35E562AB00F9C00CA76F6 = {
@@ -580,10 +600,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982A22E32AB1503300E512B1 /* MedicationData.swift in Sources */,
 				982A22B72AB0850200E512B1 /* CalendarView.swift in Sources */,
 				982A22CD2AB14B5700E512B1 /* TodoItemModel.swift in Sources */,
+				982A22DF2AB14F2400E512B1 /* MedicationRowView.swift in Sources */,
 				982A22CB2AB14B1D00E512B1 /* MedicineModel.swift in Sources */,
-				982A22C72AB1432500E512B1 /* CircularProgressBarWithText.swift in Sources */,
+				982A22C72AB1432500E512B1 /* CircularProgressBarWithTextView.swift in Sources */,
 				982A22D22AB14B9700E512B1 /* MedicationModel.swift in Sources */,
 				982A22D82AB14CDE00E512B1 /* InformationSection.swift in Sources */,
 				982A22B02AB02FD600E512B1 /* LoginView.swift in Sources */,
@@ -593,6 +615,8 @@
 				98F35E632AB00F9C00CA76F6 /* yakalApp.swift in Sources */,
 				982A22C12AB0873C00E512B1 /* NotificationView.swift in Sources */,
 				982A22D42AB14C8900E512B1 /* TopSection.swift in Sources */,
+				982A22DA2AB14EC000E512B1 /* MedicationView.swift in Sources */,
+				982A22DD2AB14F0400E512B1 /* MedicationItemRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,9 +16,7 @@ struct HomeView: View {
                 VStack{
                     HStack{
                         Spacer()
-                        Button(action: {
-                            // 알림 뷰로 이동하는 코드 여기에 작성
-                        }) {
+                        NavigationLink(destination: NotificationView()){
                             Image("icon-bell(1)")
                                 .frame(width: 40, height: 40)
                         }
