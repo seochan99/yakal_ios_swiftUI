@@ -28,6 +28,20 @@
 		982A22EC2AB162E100E512B1 /* WeekdayHeaderSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22EB2AB162E100E512B1 /* WeekdayHeaderSwiftUIView.swift */; };
 		982A22EE2AB162F100E512B1 /* CalendarWeekSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22ED2AB162F100E512B1 /* CalendarWeekSwiftUIView.swift */; };
 		982A22F02AB1631300E512B1 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A22EF2AB1631300E512B1 /* CircularProgressBar.swift */; };
+		984E3F152AB4327700B0E7B7 /* MypageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F142AB4327700B0E7B7 /* MypageView.swift */; };
+		984E3F192AB4331000B0E7B7 /* TimeSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F182AB4331000B0E7B7 /* TimeSettingView.swift */; };
+		984E3F1B2AB4332A00B0E7B7 /* KakaoSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F1A2AB4332A00B0E7B7 /* KakaoSettingView.swift */; };
+		984E3F1D2AB4333900B0E7B7 /* AlertSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F1C2AB4333900B0E7B7 /* AlertSettingView.swift */; };
+		984E3F202AB4338E00B0E7B7 /* WishYakalSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F1F2AB4338E00B0E7B7 /* WishYakalSwiftUIView.swift */; };
+		984E3F222AB4339B00B0E7B7 /* LogoutModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F212AB4339B00B0E7B7 /* LogoutModalView.swift */; };
+		984E3F242AB433AD00B0E7B7 /* EditNicknameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F232AB433AD00B0E7B7 /* EditNicknameView.swift */; };
+		984E3F262AB433EE00B0E7B7 /* DatePickerModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F252AB433EE00B0E7B7 /* DatePickerModalView.swift */; };
+		984E3F282AB4340B00B0E7B7 /* BlueHorizontalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F272AB4340B00B0E7B7 /* BlueHorizontalButton.swift */; };
+		984E3F2A2AB4342A00B0E7B7 /* SettingButtonSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F292AB4342A00B0E7B7 /* SettingButtonSwiftUI.swift */; };
+		984E3F2C2AB4343700B0E7B7 /* SettingSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F2B2AB4343700B0E7B7 /* SettingSwiftUIView.swift */; };
+		984E3F2E2AB4345000B0E7B7 /* TimeSlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F2D2AB4345000B0E7B7 /* TimeSlotView.swift */; };
+		984E3F302AB4346200B0E7B7 /* SignOutSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F2F2AB4346200B0E7B7 /* SignOutSwiftUIView.swift */; };
+		984E3F332AB4349A00B0E7B7 /* LogoutCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F322AB4349A00B0E7B7 /* LogoutCoordinator.swift */; };
 		98EA9C832AB18FF400A503A8 /* CalendarHeaderChangeMonthSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EA9C822AB18FF400A503A8 /* CalendarHeaderChangeMonthSwiftUIView.swift */; };
 		98EA9C852AB1902C00A503A8 /* CalendarTodoHeaderSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EA9C842AB1902C00A503A8 /* CalendarTodoHeaderSwiftUIView.swift */; };
 		98F35E632AB00F9C00CA76F6 /* yakalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F35E622AB00F9C00CA76F6 /* yakalApp.swift */; };
@@ -61,6 +75,20 @@
 		982A22EB2AB162E100E512B1 /* WeekdayHeaderSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayHeaderSwiftUIView.swift; sourceTree = "<group>"; };
 		982A22ED2AB162F100E512B1 /* CalendarWeekSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWeekSwiftUIView.swift; sourceTree = "<group>"; };
 		982A22EF2AB1631300E512B1 /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		984E3F142AB4327700B0E7B7 /* MypageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MypageView.swift; sourceTree = "<group>"; };
+		984E3F182AB4331000B0E7B7 /* TimeSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSettingView.swift; sourceTree = "<group>"; };
+		984E3F1A2AB4332A00B0E7B7 /* KakaoSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoSettingView.swift; sourceTree = "<group>"; };
+		984E3F1C2AB4333900B0E7B7 /* AlertSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertSettingView.swift; sourceTree = "<group>"; };
+		984E3F1F2AB4338E00B0E7B7 /* WishYakalSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishYakalSwiftUIView.swift; sourceTree = "<group>"; };
+		984E3F212AB4339B00B0E7B7 /* LogoutModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutModalView.swift; sourceTree = "<group>"; };
+		984E3F232AB433AD00B0E7B7 /* EditNicknameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNicknameView.swift; sourceTree = "<group>"; };
+		984E3F252AB433EE00B0E7B7 /* DatePickerModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerModalView.swift; sourceTree = "<group>"; };
+		984E3F272AB4340B00B0E7B7 /* BlueHorizontalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueHorizontalButton.swift; sourceTree = "<group>"; };
+		984E3F292AB4342A00B0E7B7 /* SettingButtonSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingButtonSwiftUI.swift; sourceTree = "<group>"; };
+		984E3F2B2AB4343700B0E7B7 /* SettingSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSwiftUIView.swift; sourceTree = "<group>"; };
+		984E3F2D2AB4345000B0E7B7 /* TimeSlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlotView.swift; sourceTree = "<group>"; };
+		984E3F2F2AB4346200B0E7B7 /* SignOutSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutSwiftUIView.swift; sourceTree = "<group>"; };
+		984E3F322AB4349A00B0E7B7 /* LogoutCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutCoordinator.swift; sourceTree = "<group>"; };
 		98EA9C822AB18FF400A503A8 /* CalendarHeaderChangeMonthSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHeaderChangeMonthSwiftUIView.swift; sourceTree = "<group>"; };
 		98EA9C842AB1902C00A503A8 /* CalendarTodoHeaderSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTodoHeaderSwiftUIView.swift; sourceTree = "<group>"; };
 		98F35E5F2AB00F9C00CA76F6 /* yakal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yakal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,6 +192,7 @@
 			children = (
 				982A22DB2AB14EE600E512B1 /* Medication */,
 				982A22C62AB1432500E512B1 /* CircularProgressBarWithTextView.swift */,
+				984E3F272AB4340B00B0E7B7 /* BlueHorizontalButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -203,6 +232,71 @@
 				982A22E52AB1511D00E512B1 /* GetMedicineAction.swift */,
 			);
 			path = Actions;
+			sourceTree = "<group>";
+		};
+		984E3F102AB4321500B0E7B7 /* Mypage */ = {
+			isa = PBXGroup;
+			children = (
+				984E3F122AB4321E00B0E7B7 /* Models */,
+				984E3F112AB4321A00B0E7B7 /* Views */,
+			);
+			path = Mypage;
+			sourceTree = "<group>";
+		};
+		984E3F112AB4321A00B0E7B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				984E3F142AB4327700B0E7B7 /* MypageView.swift */,
+				984E3F212AB4339B00B0E7B7 /* LogoutModalView.swift */,
+				984E3F232AB433AD00B0E7B7 /* EditNicknameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		984E3F122AB4321E00B0E7B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		984E3F132AB4324600B0E7B7 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		984E3F162AB432FE00B0E7B7 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				984E3F172AB4330800B0E7B7 /* Views */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		984E3F172AB4330800B0E7B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				984E3F182AB4331000B0E7B7 /* TimeSettingView.swift */,
+				984E3F1A2AB4332A00B0E7B7 /* KakaoSettingView.swift */,
+				984E3F1C2AB4333900B0E7B7 /* AlertSettingView.swift */,
+				984E3F1F2AB4338E00B0E7B7 /* WishYakalSwiftUIView.swift */,
+				984E3F252AB433EE00B0E7B7 /* DatePickerModalView.swift */,
+				984E3F292AB4342A00B0E7B7 /* SettingButtonSwiftUI.swift */,
+				984E3F2B2AB4343700B0E7B7 /* SettingSwiftUIView.swift */,
+				984E3F2D2AB4345000B0E7B7 /* TimeSlotView.swift */,
+				984E3F2F2AB4346200B0E7B7 /* SignOutSwiftUIView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		984E3F312AB4348D00B0E7B7 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				984E3F322AB4349A00B0E7B7 /* LogoutCoordinator.swift */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 		98F35E562AB00F9C00CA76F6 = {
@@ -259,10 +353,12 @@
 		98F35E802AB011B500CA76F6 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				984E3F162AB432FE00B0E7B7 /* Setting */,
+				984E3F132AB4324600B0E7B7 /* Test */,
+				984E3F102AB4321500B0E7B7 /* Mypage */,
 				982A22BE2AB0871F00E512B1 /* Notification */,
 				982A22C22AB142E000E512B1 /* Common */,
 				982A22B52AB084A800E512B1 /* Calendar */,
-				98F35E852AB011D000CA76F6 /* Settings */,
 				98F35E842AB011CB00CA76F6 /* Calendar */,
 				98F35E832AB011C800CA76F6 /* Home */,
 				98F35E822AB011C000CA76F6 /* Login */,
@@ -273,6 +369,7 @@
 		98F35E812AB011BA00CA76F6 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				984E3F312AB4348D00B0E7B7 /* Class */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -313,54 +410,7 @@
 			path = Calendar;
 			sourceTree = "<group>";
 		};
-		98F35E852AB011D000CA76F6 /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				98F35E912AB0129E00CA76F6 /* Models */,
-				98F35E902AB0128700CA76F6 /* Actions */,
-				98F35E8F2AB0128100CA76F6 /* Screens */,
-				98F35E8E2AB0127C00CA76F6 /* ViewModels */,
-				98F35E8D2AB0127900CA76F6 /* Views */,
-			);
-			path = Settings;
-			sourceTree = "<group>";
-		};
 		98F35E862AB011DA00CA76F6 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		98F35E8D2AB0127900CA76F6 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		98F35E8E2AB0127C00CA76F6 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		98F35E8F2AB0128100CA76F6 /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Screens;
-			sourceTree = "<group>";
-		};
-		98F35E902AB0128700CA76F6 /* Actions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Actions;
-			sourceTree = "<group>";
-		};
-		98F35E912AB0129E00CA76F6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -633,29 +683,43 @@
 			buildActionMask = 2147483647;
 			files = (
 				982A22E32AB1503300E512B1 /* MedicationData.swift in Sources */,
+				984E3F152AB4327700B0E7B7 /* MypageView.swift in Sources */,
 				982A22E82AB1515A00E512B1 /* MedicineViewModel.swift in Sources */,
+				984E3F2C2AB4343700B0E7B7 /* SettingSwiftUIView.swift in Sources */,
+				984E3F2E2AB4345000B0E7B7 /* TimeSlotView.swift in Sources */,
 				982A22EE2AB162F100E512B1 /* CalendarWeekSwiftUIView.swift in Sources */,
 				982A22B72AB0850200E512B1 /* CalendarView.swift in Sources */,
+				984E3F222AB4339B00B0E7B7 /* LogoutModalView.swift in Sources */,
 				982A22CD2AB14B5700E512B1 /* TodoItemModel.swift in Sources */,
 				982A22DF2AB14F2400E512B1 /* MedicationRowView.swift in Sources */,
+				984E3F332AB4349A00B0E7B7 /* LogoutCoordinator.swift in Sources */,
+				984E3F1D2AB4333900B0E7B7 /* AlertSettingView.swift in Sources */,
 				982A22E62AB1511D00E512B1 /* GetMedicineAction.swift in Sources */,
+				984E3F192AB4331000B0E7B7 /* TimeSettingView.swift in Sources */,
 				982A22CB2AB14B1D00E512B1 /* MedicineModel.swift in Sources */,
 				982A22C72AB1432500E512B1 /* CircularProgressBarWithTextView.swift in Sources */,
 				982A22D22AB14B9700E512B1 /* MedicationModel.swift in Sources */,
 				982A22D82AB14CDE00E512B1 /* InformationSection.swift in Sources */,
+				984E3F1B2AB4332A00B0E7B7 /* KakaoSettingView.swift in Sources */,
 				982A22B02AB02FD600E512B1 /* LoginView.swift in Sources */,
+				984E3F2A2AB4342A00B0E7B7 /* SettingButtonSwiftUI.swift in Sources */,
 				982A22D62AB14CAC00E512B1 /* NotificationButton.swift in Sources */,
 				982A22F02AB1631300E512B1 /* CircularProgressBar.swift in Sources */,
+				984E3F202AB4338E00B0E7B7 /* WishYakalSwiftUIView.swift in Sources */,
 				98F35E652AB00F9C00CA76F6 /* ContentView.swift in Sources */,
 				982A22B42AB07DF200E512B1 /* HomeView.swift in Sources */,
 				98F35E632AB00F9C00CA76F6 /* yakalApp.swift in Sources */,
 				982A22EC2AB162E100E512B1 /* WeekdayHeaderSwiftUIView.swift in Sources */,
+				984E3F242AB433AD00B0E7B7 /* EditNicknameView.swift in Sources */,
 				98EA9C832AB18FF400A503A8 /* CalendarHeaderChangeMonthSwiftUIView.swift in Sources */,
 				982A22C12AB0873C00E512B1 /* NotificationView.swift in Sources */,
+				984E3F262AB433EE00B0E7B7 /* DatePickerModalView.swift in Sources */,
 				98EA9C852AB1902C00A503A8 /* CalendarTodoHeaderSwiftUIView.swift in Sources */,
 				982A22EA2AB1625D00E512B1 /* DayModel.swift in Sources */,
 				982A22D42AB14C8900E512B1 /* TopSection.swift in Sources */,
+				984E3F282AB4340B00B0E7B7 /* BlueHorizontalButton.swift in Sources */,
 				982A22DA2AB14EC000E512B1 /* MedicationView.swift in Sources */,
+				984E3F302AB4346200B0E7B7 /* SignOutSwiftUIView.swift in Sources */,
 				982A22DD2AB14F0400E512B1 /* MedicationItemRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
