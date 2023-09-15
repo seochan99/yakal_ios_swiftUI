@@ -42,6 +42,20 @@
 		984E3F2E2AB4345000B0E7B7 /* TimeSlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F2D2AB4345000B0E7B7 /* TimeSlotView.swift */; };
 		984E3F302AB4346200B0E7B7 /* SignOutSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F2F2AB4346200B0E7B7 /* SignOutSwiftUIView.swift */; };
 		984E3F332AB4349A00B0E7B7 /* LogoutCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F322AB4349A00B0E7B7 /* LogoutCoordinator.swift */; };
+		984E3F382AB4356B00B0E7B7 /* InfoBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F372AB4356B00B0E7B7 /* InfoBoxView.swift */; };
+		984E3F3A2AB4357700B0E7B7 /* ResultBoxSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F392AB4357700B0E7B7 /* ResultBoxSwiftUIView.swift */; };
+		984E3F3C2AB4358100B0E7B7 /* OptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F3B2AB4358100B0E7B7 /* OptionButton.swift */; };
+		984E3F3E2AB4358B00B0E7B7 /* RowQuetionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F3D2AB4358B00B0E7B7 /* RowQuetionView.swift */; };
+		984E3F402AB4359E00B0E7B7 /* TestDoneSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F3F2AB4359E00B0E7B7 /* TestDoneSwiftUIView.swift */; };
+		984E3F422AB435A900B0E7B7 /* ConfromityTestSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F412AB435A900B0E7B7 /* ConfromityTestSwiftUIView.swift */; };
+		984E3F442AB435B600B0E7B7 /* DrinkingTestSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F432AB435B600B0E7B7 /* DrinkingTestSwiftUIView.swift */; };
+		984E3F462AB435C600B0E7B7 /* SmokingTestSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F452AB435C600B0E7B7 /* SmokingTestSwiftUIView.swift */; };
+		984E3F482AB435D100B0E7B7 /* DepressionTestSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F472AB435D100B0E7B7 /* DepressionTestSwiftUIView.swift */; };
+		984E3F4A2AB435DE00B0E7B7 /* InsomniaTestSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F492AB435DE00B0E7B7 /* InsomniaTestSwiftUIView.swift */; };
+		984E3F4C2AB435EF00B0E7B7 /* HealthFoodSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F4B2AB435EF00B0E7B7 /* HealthFoodSwiftUIView.swift */; };
+		984E3F4F2AB4360900B0E7B7 /* DiagnosticTestSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F4E2AB4360900B0E7B7 /* DiagnosticTestSwiftUIView.swift */; };
+		984E3F512AB4361A00B0E7B7 /* TestListSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F502AB4361A00B0E7B7 /* TestListSwiftUIView.swift */; };
+		984E3F532AB4365C00B0E7B7 /* ModeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984E3F522AB4365C00B0E7B7 /* ModeButton.swift */; };
 		98EA9C832AB18FF400A503A8 /* CalendarHeaderChangeMonthSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EA9C822AB18FF400A503A8 /* CalendarHeaderChangeMonthSwiftUIView.swift */; };
 		98EA9C852AB1902C00A503A8 /* CalendarTodoHeaderSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EA9C842AB1902C00A503A8 /* CalendarTodoHeaderSwiftUIView.swift */; };
 		98F35E632AB00F9C00CA76F6 /* yakalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F35E622AB00F9C00CA76F6 /* yakalApp.swift */; };
@@ -89,6 +103,20 @@
 		984E3F2D2AB4345000B0E7B7 /* TimeSlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlotView.swift; sourceTree = "<group>"; };
 		984E3F2F2AB4346200B0E7B7 /* SignOutSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutSwiftUIView.swift; sourceTree = "<group>"; };
 		984E3F322AB4349A00B0E7B7 /* LogoutCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutCoordinator.swift; sourceTree = "<group>"; };
+		984E3F372AB4356B00B0E7B7 /* InfoBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBoxView.swift; sourceTree = "<group>"; };
+		984E3F392AB4357700B0E7B7 /* ResultBoxSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultBoxSwiftUIView.swift; sourceTree = "<group>"; };
+		984E3F3B2AB4358100B0E7B7 /* OptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionButton.swift; sourceTree = "<group>"; };
+		984E3F3D2AB4358B00B0E7B7 /* RowQuetionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowQuetionView.swift; sourceTree = "<group>"; };
+		984E3F3F2AB4359E00B0E7B7 /* TestDoneSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDoneSwiftUIView.swift; sourceTree = "<group>"; };
+		984E3F412AB435A900B0E7B7 /* ConfromityTestSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfromityTestSwiftUIView.swift; sourceTree = "<group>"; };
+		984E3F432AB435B600B0E7B7 /* DrinkingTestSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkingTestSwiftUIView.swift; sourceTree = "<group>"; };
+		984E3F452AB435C600B0E7B7 /* SmokingTestSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokingTestSwiftUIView.swift; sourceTree = "<group>"; };
+		984E3F472AB435D100B0E7B7 /* DepressionTestSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepressionTestSwiftUIView.swift; sourceTree = "<group>"; };
+		984E3F492AB435DE00B0E7B7 /* InsomniaTestSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsomniaTestSwiftUIView.swift; sourceTree = "<group>"; };
+		984E3F4B2AB435EF00B0E7B7 /* HealthFoodSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthFoodSwiftUIView.swift; sourceTree = "<group>"; };
+		984E3F4E2AB4360900B0E7B7 /* DiagnosticTestSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticTestSwiftUIView.swift; sourceTree = "<group>"; };
+		984E3F502AB4361A00B0E7B7 /* TestListSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestListSwiftUIView.swift; sourceTree = "<group>"; };
+		984E3F522AB4365C00B0E7B7 /* ModeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeButton.swift; sourceTree = "<group>"; };
 		98EA9C822AB18FF400A503A8 /* CalendarHeaderChangeMonthSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHeaderChangeMonthSwiftUIView.swift; sourceTree = "<group>"; };
 		98EA9C842AB1902C00A503A8 /* CalendarTodoHeaderSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTodoHeaderSwiftUIView.swift; sourceTree = "<group>"; };
 		98F35E5F2AB00F9C00CA76F6 /* yakal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yakal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -249,6 +277,7 @@
 				984E3F142AB4327700B0E7B7 /* MypageView.swift */,
 				984E3F212AB4339B00B0E7B7 /* LogoutModalView.swift */,
 				984E3F232AB433AD00B0E7B7 /* EditNicknameView.swift */,
+				984E3F522AB4365C00B0E7B7 /* ModeButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -263,6 +292,7 @@
 		984E3F132AB4324600B0E7B7 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				984E3F352AB4354C00B0E7B7 /* Views */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -297,6 +327,42 @@
 				984E3F322AB4349A00B0E7B7 /* LogoutCoordinator.swift */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		984E3F342AB4353B00B0E7B7 /* TestDetail */ = {
+			isa = PBXGroup;
+			children = (
+				984E3F362AB4355F00B0E7B7 /* TestDetailCommon */,
+				984E3F3F2AB4359E00B0E7B7 /* TestDoneSwiftUIView.swift */,
+				984E3F412AB435A900B0E7B7 /* ConfromityTestSwiftUIView.swift */,
+				984E3F432AB435B600B0E7B7 /* DrinkingTestSwiftUIView.swift */,
+				984E3F452AB435C600B0E7B7 /* SmokingTestSwiftUIView.swift */,
+				984E3F472AB435D100B0E7B7 /* DepressionTestSwiftUIView.swift */,
+				984E3F492AB435DE00B0E7B7 /* InsomniaTestSwiftUIView.swift */,
+				984E3F4B2AB435EF00B0E7B7 /* HealthFoodSwiftUIView.swift */,
+				984E3F4E2AB4360900B0E7B7 /* DiagnosticTestSwiftUIView.swift */,
+			);
+			path = TestDetail;
+			sourceTree = "<group>";
+		};
+		984E3F352AB4354C00B0E7B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				984E3F342AB4353B00B0E7B7 /* TestDetail */,
+				984E3F502AB4361A00B0E7B7 /* TestListSwiftUIView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		984E3F362AB4355F00B0E7B7 /* TestDetailCommon */ = {
+			isa = PBXGroup;
+			children = (
+				984E3F372AB4356B00B0E7B7 /* InfoBoxView.swift */,
+				984E3F392AB4357700B0E7B7 /* ResultBoxSwiftUIView.swift */,
+				984E3F3B2AB4358100B0E7B7 /* OptionButton.swift */,
+				984E3F3D2AB4358B00B0E7B7 /* RowQuetionView.swift */,
+			);
+			path = TestDetailCommon;
 			sourceTree = "<group>";
 		};
 		98F35E562AB00F9C00CA76F6 = {
@@ -686,15 +752,22 @@
 				984E3F152AB4327700B0E7B7 /* MypageView.swift in Sources */,
 				982A22E82AB1515A00E512B1 /* MedicineViewModel.swift in Sources */,
 				984E3F2C2AB4343700B0E7B7 /* SettingSwiftUIView.swift in Sources */,
+				984E3F3A2AB4357700B0E7B7 /* ResultBoxSwiftUIView.swift in Sources */,
 				984E3F2E2AB4345000B0E7B7 /* TimeSlotView.swift in Sources */,
 				982A22EE2AB162F100E512B1 /* CalendarWeekSwiftUIView.swift in Sources */,
 				982A22B72AB0850200E512B1 /* CalendarView.swift in Sources */,
+				984E3F3C2AB4358100B0E7B7 /* OptionButton.swift in Sources */,
+				984E3F3E2AB4358B00B0E7B7 /* RowQuetionView.swift in Sources */,
 				984E3F222AB4339B00B0E7B7 /* LogoutModalView.swift in Sources */,
 				982A22CD2AB14B5700E512B1 /* TodoItemModel.swift in Sources */,
 				982A22DF2AB14F2400E512B1 /* MedicationRowView.swift in Sources */,
 				984E3F332AB4349A00B0E7B7 /* LogoutCoordinator.swift in Sources */,
+				984E3F422AB435A900B0E7B7 /* ConfromityTestSwiftUIView.swift in Sources */,
 				984E3F1D2AB4333900B0E7B7 /* AlertSettingView.swift in Sources */,
+				984E3F4A2AB435DE00B0E7B7 /* InsomniaTestSwiftUIView.swift in Sources */,
+				984E3F382AB4356B00B0E7B7 /* InfoBoxView.swift in Sources */,
 				982A22E62AB1511D00E512B1 /* GetMedicineAction.swift in Sources */,
+				984E3F4F2AB4360900B0E7B7 /* DiagnosticTestSwiftUIView.swift in Sources */,
 				984E3F192AB4331000B0E7B7 /* TimeSettingView.swift in Sources */,
 				982A22CB2AB14B1D00E512B1 /* MedicineModel.swift in Sources */,
 				982A22C72AB1432500E512B1 /* CircularProgressBarWithTextView.swift in Sources */,
@@ -702,22 +775,29 @@
 				982A22D82AB14CDE00E512B1 /* InformationSection.swift in Sources */,
 				984E3F1B2AB4332A00B0E7B7 /* KakaoSettingView.swift in Sources */,
 				982A22B02AB02FD600E512B1 /* LoginView.swift in Sources */,
+				984E3F402AB4359E00B0E7B7 /* TestDoneSwiftUIView.swift in Sources */,
 				984E3F2A2AB4342A00B0E7B7 /* SettingButtonSwiftUI.swift in Sources */,
 				982A22D62AB14CAC00E512B1 /* NotificationButton.swift in Sources */,
 				982A22F02AB1631300E512B1 /* CircularProgressBar.swift in Sources */,
 				984E3F202AB4338E00B0E7B7 /* WishYakalSwiftUIView.swift in Sources */,
 				98F35E652AB00F9C00CA76F6 /* ContentView.swift in Sources */,
+				984E3F462AB435C600B0E7B7 /* SmokingTestSwiftUIView.swift in Sources */,
 				982A22B42AB07DF200E512B1 /* HomeView.swift in Sources */,
+				984E3F442AB435B600B0E7B7 /* DrinkingTestSwiftUIView.swift in Sources */,
 				98F35E632AB00F9C00CA76F6 /* yakalApp.swift in Sources */,
 				982A22EC2AB162E100E512B1 /* WeekdayHeaderSwiftUIView.swift in Sources */,
 				984E3F242AB433AD00B0E7B7 /* EditNicknameView.swift in Sources */,
 				98EA9C832AB18FF400A503A8 /* CalendarHeaderChangeMonthSwiftUIView.swift in Sources */,
 				982A22C12AB0873C00E512B1 /* NotificationView.swift in Sources */,
+				984E3F4C2AB435EF00B0E7B7 /* HealthFoodSwiftUIView.swift in Sources */,
+				984E3F532AB4365C00B0E7B7 /* ModeButton.swift in Sources */,
+				984E3F512AB4361A00B0E7B7 /* TestListSwiftUIView.swift in Sources */,
 				984E3F262AB433EE00B0E7B7 /* DatePickerModalView.swift in Sources */,
 				98EA9C852AB1902C00A503A8 /* CalendarTodoHeaderSwiftUIView.swift in Sources */,
 				982A22EA2AB1625D00E512B1 /* DayModel.swift in Sources */,
 				982A22D42AB14C8900E512B1 /* TopSection.swift in Sources */,
 				984E3F282AB4340B00B0E7B7 /* BlueHorizontalButton.swift in Sources */,
+				984E3F482AB435D100B0E7B7 /* DepressionTestSwiftUIView.swift in Sources */,
 				982A22DA2AB14EC000E512B1 /* MedicationView.swift in Sources */,
 				984E3F302AB4346200B0E7B7 /* SignOutSwiftUIView.swift in Sources */,
 				982A22DD2AB14F0400E512B1 /* MedicationItemRowView.swift in Sources */,
@@ -863,6 +943,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -896,6 +977,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

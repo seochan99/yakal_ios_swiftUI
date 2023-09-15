@@ -154,10 +154,7 @@ struct MypageView: View {
                         }.background(Color(red: 0.96, green: 0.96, blue: 0.98, opacity: 1))
                             
                     }
-                }
-                
-            }.onAppear {
-                self.showTabBar()
+                }   
             }
         }
 }

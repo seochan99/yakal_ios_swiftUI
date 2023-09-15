@@ -57,13 +57,13 @@ struct SettingSwiftUIView: View {
     
        
     
-    init() {
-        let appearance = UINavigationBarAppearance()
-        appearance.configureWithOpaqueBackground()
-        appearance.backgroundColor = .white
-        UINavigationBar.appearance().standardAppearance = appearance
-        UINavigationBar.appearance().scrollEdgeAppearance = appearance
-    }
+//    init() {
+//        let appearance = UINavigationBarAppearance()
+//        appearance.configureWithOpaqueBackground()
+//        appearance.backgroundColor = .white
+//        UINavigationBar.appearance().standardAppearance = appearance
+//        UINavigationBar.appearance().scrollEdgeAppearance = appearance
+//    }
     
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     
@@ -194,8 +194,6 @@ struct SettingSwiftUIView: View {
                             }
                         }
                     )
-            }.onAppear {
-                self.hideTabBar()
             }
             .navigationTitle("앱 설정")
             .navigationBarBackButtonHidden(true)

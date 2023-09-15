@@ -17,11 +17,11 @@ struct SettingButton: View {
          case "앱 설정":
              return AnyView(SettingSwiftUIView())
          case "알림 설정":
-             return AnyView(AlertSettingSwiftUIView())
+             return AnyView(AlertSettingView())
          case "약알에게 바라는 점":
              return AnyView(WishYakalSwiftUIView())
          case "자주묻는 질문":
-             return AnyView(AlertSettingSwiftUIView())
+             return AnyView(AlertSettingView())
          default:
              return AnyView(EmptyView())  // default view if neither matched
          }

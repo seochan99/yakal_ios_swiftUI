@@ -115,11 +115,5 @@ struct TimeSettingView: View {
         }.alert(isPresented: $isShowingAlert) {
             Alert(title: Text("경고"), message: Text("시작시간이 종료시간보다 뒤에 있습니다."), dismissButton: .default(Text("확인")))
         }
-        .onAppear {
-            self.hideTabBar()
-        }
-        .onDisappear {
-            self.showTabBar()
-        }
     }
 }
