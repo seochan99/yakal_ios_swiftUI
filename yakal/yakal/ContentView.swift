@@ -6,7 +6,7 @@ struct ContentView: View {
     @State private var selectedTab = 0
 
     var body: some View {
-            TabView {
+            TabView(selection: $selectedTab) {
                 HomeView()
                     .tabItem {
                         Image(selectedTab == 0 ? "icon_home_fill" : "icon_home")
