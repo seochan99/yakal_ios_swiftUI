@@ -5,14 +5,14 @@ import Combine
 class MedicineViewModel: ObservableObject {
     @Published var identaImage: Image?
     @Published var responseString = "Loading..."
-    @Binding var medicine: Medicine
+    @Published var medicine: Medicine
 
     private var imageCache: [String: Image] = [:]
     private let getMedicineAPIAction = GetMedicineAction()
 
     // 초기화
-    init(medicine: Binding<Medicine>) { // non-optional로 변경
-        _medicine = medicine
+    init(medicine: Medicine) {
+        self.medicine = medicine
     }
     
     // Fetch

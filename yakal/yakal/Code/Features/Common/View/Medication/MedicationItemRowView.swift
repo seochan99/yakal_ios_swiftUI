@@ -15,7 +15,7 @@ struct MedicationItemRow: View {
         _medicine = medicine
         self.isAllCompleted = isAllCompleted
         _isCompleted = isCompleted
-        viewModel = MedicineViewModel(medicine: medicine)
+        self.viewModel = MedicineViewModel(medicine: medicine.wrappedValue)
     }
 
 
