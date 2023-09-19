@@ -78,14 +78,16 @@ struct HomeView: View {
                             CircularProgressBarWithText(progress: Double(Float(medicationData.totalTakenCount) / Float(medicationData.totalMedicineCount)),size:88,strokeLineWidth:5,fontSize:20)
                                                 Spacer()
                                                         .frame(height: 30)
-                            
                         }
                         .padding(.trailing,20)
                     }.background(.white)
                 }
                 ScrollView(showsIndicators: false){
-                    MedicationSwiftUIView()
-                                        .environmentObject(medicationData)
+                    ZStack{
+                        MedicationSwiftUIView()
+                                            .environmentObject(medicationData)
+                    }
+                    
                 }.background(Color(red: 0.96, green: 0.96, blue: 0.98)) // Vstack
                 } // Vstack
             

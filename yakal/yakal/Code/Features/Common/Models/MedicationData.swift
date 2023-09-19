@@ -130,6 +130,7 @@ class MedicationData: ObservableObject {
          
         ]),
     ]
+    
     var totalMedicineCount: Int {
         return medications.reduce(0) { $0 + $1.count }
     }

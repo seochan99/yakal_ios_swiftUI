@@ -2,7 +2,7 @@ import SwiftUI
 
 //MARK: - 약물 상단 Row
 struct MedicationRow: View {
-    @State var medication: Medication // Change let to var
+    @Binding var medication: Medication
 
     
     let isExpanded: Bool
@@ -150,7 +150,7 @@ struct MedicationRow: View {
 struct MedicationRowView_Previews: PreviewProvider {
     static var previews: some View {
         MedicationRow(
-            medication: Medication(name: "아침", medication: [
+            medication: .constant(Medication(name: "아침", medication: [
                 Medicine(
                     id: 1,
                     image: "image_덱시로펜정",
@@ -174,10 +174,9 @@ struct MedicationRowView_Previews: PreviewProvider {
                     isOverLap: false
                 ),
                 
-            ]),
+            ])),
             isExpanded: true, // or false, depending on your use case
             onTap: {}
         )
     }
 }
-

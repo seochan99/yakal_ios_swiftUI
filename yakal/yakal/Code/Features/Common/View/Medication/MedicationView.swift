@@ -12,10 +12,11 @@ struct MedicationSwiftUIView: View {
     
     var body: some View {
         ScrollView {
+//            Text(medicationData.medications.map { "\($0)" }.joined(separator: "\n"))
             LazyVStack(spacing: 16) {
                 ForEach(medicationData.medications.indices.filter { !medicationData.medications[$0].medication.isEmpty }, id: \.self) { index in
                     MedicationRow(
-                        medication: medicationData.medications[index],
+                        medication: $medicationData.medications[index],
                         isExpanded: expandedIndex == index,
                         onTap: {
                             withAnimation {
@@ -27,7 +28,9 @@ struct MedicationSwiftUIView: View {
             }
             .padding()
             .padding(.bottom, 90) // Add bottom padding here
+            
         }.background(Color(red: 0.96, green: 0.96, blue: 0.98, opacity: 1))
+        
     }
 }
 
